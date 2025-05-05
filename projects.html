@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECTS</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="projectStyle.css">
+</head>
+<body>
+    <!-- Added scrolling background container -->
+    <div class="scrolling-background"></div>
+    
+    <audio autoplay="" loop="">
+        <source src="bgMusic/placehold1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <nav class="navbar">
+        <a href="home.html">
+            <img src="images/homeIcon.png" alt="Website Logo" class="logo">
+        </a>
+        <div class="dropdown">
+            <button class="dropbtn">☰</button>
+            <div class="dropdown-content">
+                <a href="about.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="shop.html">Shop</a>
+                <a href="sites.html">Sites</a>
+                <a href="friends.html">Friends</a>
+                <a href="projects.html">Projects</a>
+                <a href="socials.html">Socials</a>
+                <a href="games.html">Games</a>
+                <a href="changelog.html">Changelog</a>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="projects-container">
+        <h1 class="projects-title">MY PROJECTS</h1>
+        
+        <div class="projects-categories">
+            <button class="category-button active" data-category="all">All</button>
+            <button class="category-button" data-category="animation">Animation</button>
+            <button class="category-button" data-category="game">Games</button>
+            <button class="category-button" data-category="art">Art</button>
+            <button class="category-button" data-category="web">Web</button>
+        </div>
+        
+        <div class="projects-grid">
+            <!-- Animation Project -->
+            <div class="project-card" data-category="animation">
+                <img src="images/projects/animation1.png" alt="Animation Project" class="project-image">
+                <h2 class="project-name">Toon Adventure</h2>
+                <p class="project-category">Animation</p>
+                <p class="project-description">A short animated series following the adventures of SiteToons characters. New episodes released monthly!</p>
+                <a href="#toon-adventure" class="project-link">Watch Now</a>
+            </div>
+            
+            <!-- Game Project -->
+            <div class="project-card" data-category="game">
+                <img src="images/projects/game1.png" alt="Game Project" class="project-image">
+                <h2 class="project-name">Pixel Jumper</h2>
+                <p class="project-category">Game</p>
+                <p class="project-description">A 2D platformer game featuring SiteToons characters navigating through colorful pixel worlds.</p>
+                <a href="games.html" class="project-link">Play Game</a>
+            </div>
+            
+            <!-- Art Project -->
+            <div class="project-card" data-category="art">
+                <img src="images/projects/art1.png" alt="Art Project" class="project-image">
+                <h2 class="project-name">Character Design Collection</h2>
+                <p class="project-category">Art</p>
+                <p class="project-description">A gallery of original character designs, concept art, and illustrations for various SiteToons projects.</p>
+                <a href="gallery.html" class="project-link">View Gallery</a>
+            </div>
+            
+            <!-- Web Project -->
+            <div class="project-card" data-category="web">
+                <img src="images/projects/web1.png" alt="Web Project" class="project-image">
+                <h2 class="project-name">Interactive Stories</h2>
+                <p class="project-category">Web</p>
+                <p class="project-description">A web-based interactive storytelling experience where your choices shape the narrative of SiteToons characters.</p>
+                <a href="#interactive-stories" class="project-link">Read Stories</a>
+            </div>
+            
+            <!-- Animation Project 2 -->
+            <div class="project-card" data-category="animation">
+                <img src="images/projects/animation2.png" alt="Animation Project 2" class="project-image">
+                <h2 class="project-name">Toon Shorts</h2>
+                <p class="project-category">Animation</p>
+                <p class="project-description">A collection of animated shorts featuring quick, funny moments with SiteToons characters.</p>
+                <a href="#toon-shorts" class="project-link">Watch Now</a>
+            </div>
+            
+            <!-- Game Project 2 -->
+            <div class="project-card" data-category="game">
+                <img src="images/projects/game2.png" alt="Game Project 2" class="project-image">
+                <h2 class="project-name">Toon RPG</h2>
+                <p class="project-category">Game</p>
+                <p class="project-description">An RPG adventure game where you can play as your favorite SiteToons characters and explore a vast world.</p>
+                <a href="games.html" class="project-link">Play Game</a>
+            </div>
+        </div>
+    </div>
+
+<script src="projectData.js"></script>
+</body>
+</html>

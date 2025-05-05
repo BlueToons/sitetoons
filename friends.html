@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRIENDS</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="friendStyle.css">
+</head>
+<body>
+    <!-- Added scrolling background container -->
+    <div class="scrolling-background"></div>
+    
+    <audio autoplay="" loop="">
+        <source src="bgMusic/placehold1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <nav class="navbar">
+        <a href="home.html">
+            <img src="images/homeIcon.png" alt="Website Logo" class="logo">
+        </a>
+        <div class="dropdown">
+            <button class="dropbtn">☰</button>
+            <div class="dropdown-content">
+                <a href="about.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="shop.html">Shop</a>
+                <a href="sites.html">Sites</a>
+                <a href="friends.html">Friends</a>
+                <a href="projects.html">Projects</a>
+                <a href="socials.html">Socials</a>
+                <a href="games.html">Games</a>
+                <a href="changelog.html">Changelog</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="friends-container">
+        <br>
+        
+        <div class="friend-search">
+            <input type="text" placeholder="Search friends..." id="friendSearch">
+            <button>🔍</button>
+        </div>
+        
+        <div class="friends-grid">
+            <!-- Friend 1 (using artist from fanart) -->
+            <div class="friend-card" data-name="austin">
+                <img src="images/friends/austin.png" alt="Austin" class="friend-avatar">
+                <h2 class="friend-name">PLACEHOLDER</h2>
+                <p class="friend-description">placeholder</p>
+                <div class="friend-social">
+                    <a href="#" target="_blank"><img src="friends/socials/twitter.png" alt="Twitter" class="social-icon-small"></a>
+                    <a href="#" target="_blank"><img src="friends/socials/youtube.png" alt="YouTube" class="social-icon-small"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <script src="friendData.js"></script>
+</body>
+</html>

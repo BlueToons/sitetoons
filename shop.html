@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="shopStyle.css">
+</head>
+<body>
+    <!-- Scrolling background container -->
+    <div class="scrolling-background"></div>
+    
+    <!-- Background music -->
+    <audio autoplay="" loop="">
+        <source src="bgMusic/placehold1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    
+    <!-- Purchase sound effect -->
+    <audio id="purchase-sound">
+        <source src="sounds/purchase.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <nav class="navbar">
+        <a href="home.html">
+            <img src="images/homeIcon.png" alt="Website Logo" class="logo">
+        </a>
+        <div class="dropdown">
+            <button class="dropbtn">☰</button>
+            <div class="dropdown-content">
+                <a href="about.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="shop.html">Shop</a>
+                <a href="sites.html">Sites</a>
+                <a href="friends.html">Friends</a>
+                <a href="projects.html">Projects</a>
+                <a href="socials.html">Socials</a>
+                <a href="games.html">Games</a>
+                <a href="changelog.html">Changelog</a>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+        <div class="shop-title">
+            <h1>SITE SHOP</h1>
+        </div>
+        
+        <div class="shop-wrapper">
+            <!-- Shop Items on the left -->
+            <div class="shop-items">
+                <h2>AVAILABLE ITEMS</h2>
+                <ul class="item-list">
+                    <li class="shop-item" data-item="artbook">
+                        <img src="images/shop/artbook.png" alt="Digital Art Book">
+                        <div class="item-info">
+                            <h3>Forgiveness FLP</h3>
+                            <p>The official FLP source files for the one-shot eteled fnf mod!</p>
+                            <button class="buy-button">View Item</button>
+                        </div>
+                    </li>
+                    <li class="shop-item" data-item="tutorial">
+                        <img src="images/shop/tutorial.png" alt="Animation Tutorial">
+                        <div class="item-info">
+                            <h3>"kill those guys!" Source Code</h3>
+                            <p>The source code for the best selling game since that one time at that one place!</p>
+                            <button class="buy-button">View Item</button>
+                        </div>
+                    </li>
+                    <li class="shop-item" data-item="commissions">
+                        <img src="images/shop/commission.png" alt="Commissions">
+                        <div class="item-info">
+                            <h3>"CLICK THE MAN" Source Code</h3>
+                            <p>The source code for the 2nd best selling game since that one other time at that one other place!</p>
+                            <button class="buy-button">View Item</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Shopkeeper and Dialog on the right -->
+            <div class="shop-character">
+                <div class="shopkeeper-container">
+                    <img src="shop/images/shopkeepIdle.png" alt="Shopkeeper" id="shopkeeper-image" class="shopkeeper-image">
+                </div>
+                
+                <div class="dialog-box">
+                    <p id="dialog-text">Welcome to my shop! Take a look around and let me know if something catches your eye!</p>
+                    <div class="dialog-buttons" id="dialog-buttons">
+                        <button id="close-dialog">Close</button>
+                        <button id="buy-item" class="hidden">Purchase</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="shopData.js"></script>
+</body>
+</html>

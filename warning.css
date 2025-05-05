@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: url("cursorHover.png"), auto;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.disclaimer-content {
+  max-width: 800px;
+  width: 90%;
+  padding: 40px;
+  text-align: center;
+  opacity: 0; /* Start invisible for fade-in effect */
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+.disclaimer-title {
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.disclaimer-text {
+  font-size: 26px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.enter-button-container {
+  margin-top: 30px;
+  opacity: 0; /* Start invisible for fade-in effect */
+  animation: fadeIn 2s ease-in-out 3s forwards; /* Start after disclaimer fades in */
+}
+
+.enter-button {
+  background-color: transparent;
+  color: white;
+  padding: 15px 40px;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.enter-button:hover {
+  background-color: #ffffff;
+  color: #000000;
+  cursor: url("cursorClick.png"), pointer;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .disclaimer-title {
+      font-size: 28px;
+  }
+  
+  .disclaimer-text {
+      font-size: 16px;
+  }
+  
+  .enter-button {
+      padding: 12px 30px;
+      font-size: 18px;
+  }
+}

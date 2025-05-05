@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALLERY</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="galleryStyle.css">
+</head>
+<body>
+    <!-- Scrolling background container -->
+    <div class="scrolling-background"></div>
+    
+    <audio autoplay="" loop="">
+        <source src="bgMusic/placehold1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <nav class="navbar">
+        <a href="home.html">
+            <img src="images/homeIcon.png" alt="Website Logo" class="logo">
+        </a>
+        <div class="dropdown">
+            <button class="dropbtn">☰</button>
+            <div class="dropdown-content">
+                <a href="about.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="shop.html">Shop</a>
+                <a href="sites.html">Sites</a>
+                <a href="friends.html">Friends</a>
+                <a href="projects.html">Projects</a>
+                <a href="socials.html">Socials</a>
+                <a href="games.html">Games</a>
+                <a href="changelog.html">Changelog</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="gallery-title">MY GALLERY</h1>
+        
+        <div class="category-tabs">
+            <button class="tab-btn active" data-category="all">All</button>
+            <button class="tab-btn" data-category="illustrations">Illustrations</button>
+            <button class="tab-btn" data-category="sketches">Sketches</button>
+            <button class="tab-btn" data-category="animations">Animations</button>
+        </div>
+        
+        <div class="gallery-grid">
+            <!-- Illustrations -->
+            <div class="gallery-item illustrations">
+                <img src="content/illustration1.png" alt="Illustration 1" class="gallery-img">
+                <div class="gallery-overlay">
+                    <h3>Artwork Title</h3>
+                    <p>Created: April 2025</p>
+                </div>
+            </div>
+            <div class="gallery-item illustrations">
+                <img src="content/illustration2.png" alt="Illustration 2" class="gallery-img">
+                <div class="gallery-overlay">
+                    <h3>Artwork Title</h3>
+                    <p>Created: March 2025</p>
+                </div>
+            </div>
+            <div class="gallery-item illustrations">
+                <img src="content/illustration3.png" alt="Illustration 3" class="gallery-img">
+                <div class="gallery-overlay">
+                    <h3>Artwork Title</h3>
+                    <p>Created: February 2025</p>
+                </div>
+            </div>
+            <div class="gallery-item illustrations">
+                <img src="content/illustration4.png" alt="Illustration 4" class="gallery-img">
+                <div class="gallery-overlay">
+                    <h3>Artwork Title</h3>
+                    <p>Created: January 2025</p>
+                </div>
+            </div>
+            
+            <!-- Sketches -->
+            <div class="gallery-item sketches">
+                <img src="content/sketch1.png" alt="Sketch 1" class="gallery-img">
+                <div class="gallery-overlay">
+                    <h3>Sketch Title</h3>
+                    <p>Created: April 2025</p>
+                </div>
+            </div>
+            <div class="gallery-item sketches">
+                <img src="content/sketch2.png" alt="Sketch 2" class="gallery-img">
+                <div class="gallery-overlay">
+                    <h3>Sketch Title</h3>
+                    <p>Created: March 2025</p>
+                </div>
+            </div>
+            <div class="gallery-item sketches">
+                <img src="content/sketch3.png" alt="Sketch 3" class="gallery-img">
+                <div class="gallery-overlay">
+                    <h3>Sketch Title</h3>
+                    <p>Created: February 2025</p>
+                </div>
+            </div>
+            
+            <!-- Animations -->
+            <div class="gallery-item animations">
+                <video class="gallery-video" controls>
+                    <source src="content/animation1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="gallery-overlay">
+                    <h3>Animation Title</h3>
+                    <p>Created: April 2025</p>
+                </div>
+            </div>
+            <div class="gallery-item animations">
+                <video class="gallery-video" controls>
+                    <source src="content/animation2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="gallery-overlay">
+                    <h3>Animation Title</h3>
+                    <p>Created: March 2025</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Modal for large image view -->
+        <div id="gallery-modal" class="modal">
+            <span class="close-modal">&times;</span>
+            <div class="modal-content">
+                <img id="modal-img" src="">
+                <div id="modal-caption"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="galleryScript.js"></script>
+</body>
+</html>
