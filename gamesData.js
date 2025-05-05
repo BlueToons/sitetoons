@@ -53,7 +53,7 @@ playButtons.forEach((button, index) => {
     
     // Define directory paths for each game
     const gamePaths = {
-      "the super awesome and cool game": "games/killGuys/index.html",
+      "the super awesome and cool game": "/games/killGuys/index.html",
       "CLICK THE MAN": "https://bluetoons.itch.io/click-the-man",
       "kill those guys !": "https://bluetoons.itch.io/kill-those-guys"
     };
