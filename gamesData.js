@@ -54,7 +54,7 @@ playButtons.forEach((button, index) => {
     // Define directory paths for each game
     const gamePaths = {
       "the super awesome and cool game": "games/killGuys/index.html",
-      "CLICK THE MAN": "games/killGuys/index.html",
+      "CLICK THE MAN": "games/clickMan/index.html",
       "kill those guys !": "games/killGuys/index.html"
     };
     
