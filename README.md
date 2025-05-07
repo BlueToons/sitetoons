@@ -1,2 +1,4 @@
 # sitetoons
-The brand new BlueToonsYT website, completely overhauled and reimagined!
+thank you for reading me
+
+you have now unlocked absolutely nothing
