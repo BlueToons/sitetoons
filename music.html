@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSIC</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="musicStyle.css">
+</head>
+<body>
+    <!-- Scrolling background container -->
+    <div class="scrolling-background"></div>
+    
+    <audio autoplay="" loop="">
+        <source src="bgMusic/musicShowcase.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <nav class="navbar">
+        <a href="home.html">
+            <img src="images/homeIcon.png" alt="Website Logo" class="logo">
+        </a>
+        <div class="dropdown">
+            <button class="dropbtn">☰</button>
+            <div class="dropdown-content">
+                <a href="about.html">About</a>
+                <a href="gallery.html">Art Gallery</a>
+                <a href="music.html">Music Gallery</a>
+                <a href="shop.html">Shop</a>
+                <a href="sites.html">Sites</a>
+                <a href="friends.html">Friends</a>
+                <a href="projects.html">Projects</a>
+                <a href="socials.html">Socials</a>
+                <a href="games.html">Games</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="page-title">
+            <h1>MY MUSIC</h1>
+        </div>
+
+        <div class="content-wrapper">
+            <!-- Featured Track Section -->
+            <div class="featured-track">
+                <h2>FEATURED TRACK</h2>
+                <div class="track-player">
+                    <img src="images/music/albumArt1.png" alt="Featured Track Album Art" class="album-art">
+                    <div class="track-details">
+                        <h3>Track Title</h3>
+                        <p>Released: May 2025</p>
+                        <div class="audio-player">
+                            <audio controls>
+                                <source src="music/featuredTrack.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                        <p class="track-description">
+                            This is my latest release! I experimented with new sounds and techniques to create something unique.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Music Collection -->
+            <div class="music-collection">
+                <h2>MY TRACKS</h2>
+                
+                <div class="track-grid">
+                    <!-- Track 1 -->
+                    <div class="track-card">
+                        <img src="images/music/track1.png" alt="Track 1" class="track-image">
+                        <div class="track-info">
+                            <h3>Dreamscape</h3>
+                            <p>Ambient / Electronic</p>
+                            <audio controls>
+                                <source src="music/track1.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                    
+                    <!-- Track 2 -->
+                    <div class="track-card">
+                        <img src="images/music/track2.png" alt="Track 2" class="track-image">
+                        <div class="track-info">
+                            <h3>Digital Rain</h3>
+                            <p>Lo-Fi / Beats</p>
+                            <audio controls>
+                                <source src="music/track2.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                    
+                    <!-- Track 3 -->
+                    <div class="track-card">
+                        <img src="images/music/track3.png" alt="Track 3" class="track-image">
+                        <div class="track-info">
+                            <h3>Crystal Caves</h3>
+                            <p>Atmospheric / Adventure</p>
+                            <audio controls>
+                                <source src="music/track3.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                    
+                    <!-- Track 4 -->
+                    <div class="track-card">
+                        <img src="images/music/track4.png" alt="Track 4" class="track-image">
+                        <div class="track-info">
+                            <h3>Pixel Forest</h3>
+                            <p>Chiptune / Retro</p>
+                            <audio controls>
+                                <source src="music/track4.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Music Updates Section -->
+            <div class="music-updates">
+                <h2>UPDATES</h2>
+                <ul class="updates-list">
+                    <li class="update-item">
+                        <button class="update-toggle">NEW ALBUM COMING SOON!</button>
+                        <div class="update-content">
+                            <p>I'm working on a full album that will be released this summer. Stay tuned for more information and previews!</p>
+                        </div>
+                    </li>
+                    <li class="update-item">
+                        <button class="update-toggle">COLLABORATION PROJECT</button>
+                        <div class="update-content">
+                            <p>I've been working with other artists on some exciting new tracks. Check back next month to hear what we've created!</p>
+                        </div>
+                    </li>
+                    <li class="update-item">
+                        <button class="update-toggle">MUSIC CREATION STREAM</button>
+                        <div class="update-content">
+                            <p>Join me this Friday at 7PM PST for a live music creation stream where I'll be showing my production process!</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Platforms Section -->
+        <div class="platforms-section">
+            <h2>FIND MY MUSIC ON</h2>
+            <div class="platform-links">
+                <a href="#" class="platform-link">
+                    <img src="images/music/spotify.png" alt="Spotify" class="platform-icon">
+                    <span>Spotify</span>
+                </a>
+                <a href="#" class="platform-link">
+                    <img src="images/music/soundcloud.png" alt="SoundCloud" class="platform-icon">
+                    <span>SoundCloud</span>
+                </a>
+                <a href="#" class="platform-link">
+                    <img src="images/music/bandcamp.png" alt="Bandcamp" class="platform-icon">
+                    <span>Bandcamp</span>
+                </a>
+                <a href="#" class="platform-link">
+                    <img src="images/music/youtube.png" alt="YouTube" class="platform-icon">
+                    <span>YouTube</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="musicData.js"></script>
+</body>
+</html>
