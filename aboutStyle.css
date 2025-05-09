@@ -394,7 +394,7 @@ body {
 }
 
 .logo-name {
-  width: 70%;
+  width: 50%;
   margin-bottom: 20px;
   animation: float 14s ease-in-out infinite;
 }
