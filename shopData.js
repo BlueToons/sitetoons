@@ -31,19 +31,19 @@ document.addEventListener('DOMContentLoaded', function() {
     'artbook': {
       name: 'Forgiveness FLP',
       dialog: "Fun Fact: This song was actually going to be an OFFICIAL song for the System Overload mod, however it was instead made into a one-shot. Who knows? Maybe it could become official one day...",
-      shopkeeperImage: 'shop/images/shopkeepItem1.png',
+      shopkeeperImage: 'shop/images/shopguy1.png',
       url: 'https://ko-fi.com/s/42b8305afd'
     },
     'tutorial': {
       name: 'Animation Tutorial',
       dialog: "There was going to be a mechanic where the red guys would randomly spawn around you, but they instead just hugged the top-left corner, so I kept it for comedic effect.",
-      shopkeeperImage: 'shop/images/shopkeeper-tutorial.png',
+      shopkeeperImage: 'shop/images/shopguy2.png',
       url: 'https://ko-fi.com/s/5405fa3f45'
     },
     'commissions': {
       name: '"CLICK THE MAN" Source Code',
       dialog: "CLICK HIM",
-      shopkeeperImage: 'shop/images/shopkeeper-commissions.png',
+      shopkeeperImage: 'shop/images/shopguy1.png',
       url: 'https://ko-fi.com/s/d5b52f9e65'
     }
   };
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Close dialog button
   closeButton.addEventListener('click', function() {
     // Reset to idle state
-    shopkeeperImage.src = 'shop/images/shopkeepIdle.png';
+    shopkeeperImage.src = 'shop/images/shopguyIdle.png';
     dialogText.textContent = "Welcome to my shop! Take a look around and let me know if something catches your eye!";
     buyButton.classList.add('hidden');
     
