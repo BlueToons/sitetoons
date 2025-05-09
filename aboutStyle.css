@@ -396,7 +396,7 @@ body {
 .logo-name {
   width: 70%;
   margin-bottom: 20px;
-  animation: float 6s ease-in-out infinite;
+  animation: float 14s ease-in-out infinite;
 }
 
 .profile-image-container {
