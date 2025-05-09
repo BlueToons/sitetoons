@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABOUT</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="homeStyle.css">
     <link rel="stylesheet" href="aboutStyle.css">
 </head>
 <body>
@@ -12,7 +13,7 @@
     <div class="scrolling-background"></div>
     
     <audio autoplay="" loop="">
-        <source src="bgMusic/music1.mp3" type="audio/mpeg">
+        <source src="bgMusic/music5.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 
@@ -36,90 +37,100 @@
         </div>
     </nav>
 
-    <br>
     <div class="container">
-        <div class="content-wrapper">
-            <!-- Profile Section -->
-            <div class="profile-section">
-                <div class="profile-header">
-                    <img src="about/bluePFP.png" alt="Profile Picture" class="profile-pic">
-                    <h1 class="profile-name">BlueToonsYT</h1>
+        <div class="about-content-wrapper">
+            <!-- About Header -->
+            <div class="about-header">
+                <h1 class="about-title">ABOUT ME</h1>
+                <div class="profile-image-container">
+                    <img src="images/profile.png" alt="Profile Picture" class="profile-image">
                 </div>
-                <div class="profile-info">
-                    <h2 class="section-title">ABOUT ME</h2>
-                    <div class="info-container">
-                        <p>Hey there, I'm BlueToonsYT! I'm the creator of this website. I'm around 17 years old, and a freelance artist and animator. I also dabble with Friday Night Funkin' modding from time to time, especially with my current project: Rigatoni Rappin. I'm also helping with the System Overload Mod, owned by MRVICH.</p>
-                    </div>
+            </div>
 
-                    <h2 class="section-title">SKILLS</h2>
-                    <div class="skills-container">
-                        <div class="skill-item">
-                            <h3>Digital Art</h3>
-                            <div class="skill-bar">
-                                <div class="skill-level" style="width: 0%"></div>
+            <!-- About Sections -->
+            <div class="about-sections">
+                <!-- Bio Section -->
+                <div class="about-section bio-section">
+                    <h2 class="section-title">WHO AM I?</h2>
+                    <div class="section-content">
+                        <p>Hey there! I'm the creator of SiteToons, a digital artist and web designer with a passion for animation and creative expression. This website serves as my personal art hub where I share my creations, projects, and connect with other artists.</p>
+                        <p>I've been drawing since I could hold a pencil and started digital art around 2018. My style has evolved over the years, but I've always been drawn to vibrant colors and expressive characters.</p>
+                    </div>
+                </div>
+
+                <!-- Interests Section -->
+                <div class="about-section interests-section">
+                    <h2 class="section-title">MY INTERESTS</h2>
+                    <div class="section-content">
+                        <ul class="interests-list">
+                            <li><span class="interest-category">Art:</span> Digital illustration, character design, animation</li>
+                            <li><span class="interest-category">Music:</span> Creating chiptunes and game soundtracks</li>
+                            <li><span class="interest-category">Games:</span> Retro gaming, indie titles, game development</li>
+                            <li><span class="interest-category">Web Design:</span> Creating fun, interactive websites with a nostalgic feel</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Site History Section -->
+                <div class="about-section history-section">
+                    <h2 class="section-title">SITE HISTORY</h2>
+                    <div class="section-content">
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-date">2023</div>
+                                <div class="timeline-info">First version of SiteToons launched</div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-date">2024</div>
+                                <div class="timeline-info">Added music and art galleries</div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-date">2025</div>
+                                <div class="timeline-info">Complete site overhaul with new design and features</div>
                             </div>
                         </div>
-                        <div class="skill-item">
-                            <h3>Animation</h3>
-                            <div class="skill-bar">
-                                <div class="skill-level" style="width: 0%"></div>
+                    </div>
+                </div>
+
+                <!-- FAQ Section -->
+                <div class="about-section faq-section">
+                    <h2 class="section-title">FAQ</h2>
+                    <div class="section-content">
+                        <div class="faq-item">
+                            <button class="faq-toggle">What software do you use?</button>
+                            <div class="faq-answer">
+                                <p>I primarily use Clip Studio Paint for illustrations and animations. For web design, I code everything from scratch using HTML, CSS, and JavaScript.</p>
                             </div>
                         </div>
-                        <div class="skill-item">
-                            <h3>Web Design</h3>
-                            <div class="skill-bar">
-                                <div class="skill-level" style="width: 65%"></div>
+                        <div class="faq-item">
+                            <button class="faq-toggle">Do you take commissions?</button>
+                            <div class="faq-answer">
+                                <p>Yes! Check out the Shop page for current commission availability and pricing.</p>
                             </div>
                         </div>
-                        <div class="skill-item">
-                            <h3>Game Development</h3>
-                            <div class="skill-bar">
-                                <div class="skill-level" style="width: 50%"></div>
+                        <div class="faq-item">
+                            <button class="faq-toggle">Can I use your art?</button>
+                            <div class="faq-answer">
+                                <p>My art is not for free use. Please contact me if you'd like to license or use my work for any purpose.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- FAQ Section -->
-            <div class="faq-section">
-                <h2 class="section-title">FREQUENTLY ASKED (not really lol) QUESTIONS</h2>
-                <div class="faq-list">
-                    <div class="faq-item">
-                        <button class="faq-toggle">What software do you use for your art?</button>
-                        <div class="faq-content">
-                            <p>I primarily use Clip Studio Paint for illustrations and Adobe Animate for animations.</p>
-                        </div>
-                    </div>
-                    <div class="faq-item">
-                        <button class="faq-toggle">Do you take commissions?</button>
-                        <div class="faq-content">
-                            <p>Not at the moment, however once I'm free from all of my major projects, I'll definitely take the time to set up comms!</p>
-                        </div>
-                    </div>
-                    <div class="faq-item">
-                        <button class="faq-toggle">How did you learn to make websites?</button>
-                        <div class="faq-content">
-                            <p>I take a web-development class!</p>
-                        </div>
-                    </div>
-                    <div class="faq-item">
-                        <button class="faq-toggle">Can I use any of your stuff for my videos/projects?</button>
-                        <div class="faq-content">
-                            <p>Yeah sure, just make sure to credit me!!!!</p>
-                        </div>
-                    </div>
-                    <div class="faq-item">
-                        <button class="faq-toggle">How often do you plan on updating the site?</button>
-                        <div class="faq-content">
-                            <p>Since this is my porfolio/personal website, not really that often. However, if there is an update, I will talk about in the changelog!</p>
-                        </div>
-                    </div>
+            <!-- Contact Section -->
+            <div class="contact-section">
+                <h2 class="contact-title">GET IN TOUCH</h2>
+                <p class="contact-text">Want to collaborate or just say hi? Reach out through any of my social links or send me an email!</p>
+                <div class="contact-links">
+                    <a href="mailto:contact@sitetoons.com" class="contact-link email-link">Email Me</a>
+                    <a href="socials.html" class="contact-link socials-link">Social Media</a>
                 </div>
             </div>
         </div>
     </div>
 
+    <script src="homeData.js"></script>
     <script src="aboutData.js"></script>
 </body>
 </html>
