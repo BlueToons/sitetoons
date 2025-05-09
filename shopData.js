@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
     'commissions': {
       name: '"CLICK THE MAN" Source Code',
       dialog: "CLICK HIM",
-      shopkeeperImage: 'shop/images/shopguy1.png',
+      shopkeeperImage: 'shop/images/shopguy3.png',
       url: 'https://ko-fi.com/s/d5b52f9e65'
     }
   };
