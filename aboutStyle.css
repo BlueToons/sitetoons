@@ -394,9 +394,9 @@ body {
 }
 
 .profile-image-container {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
   overflow: hidden;
   border: 3px solid #6e8efb; /* Blue border to match your theme */
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
